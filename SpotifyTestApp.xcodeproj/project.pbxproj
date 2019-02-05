@@ -14,6 +14,7 @@
 		6C0051642209F83C008F7091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0051622209F83C008F7091 /* LaunchScreen.storyboard */; };
 		6C00516F2209F83C008F7091 /* SpotifyTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C00516E2209F83C008F7091 /* SpotifyTestAppTests.swift */; };
 		6C00517A2209F83C008F7091 /* SpotifyTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0051792209F83C008F7091 /* SpotifyTestAppUITests.swift */; };
+		6C005188220A0227008F7091 /* SpotifyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C005187220A0227008F7091 /* SpotifyManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6C0051752209F83C008F7091 /* SpotifyTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0051792209F83C008F7091 /* SpotifyTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyTestAppUITests.swift; sourceTree = "<group>"; };
 		6C00517B2209F83C008F7091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C005187220A0227008F7091 /* SpotifyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				6C0051592209F83A008F7091 /* AppDelegate.swift */,
 				6C00515B2209F83A008F7091 /* ViewController.swift */,
+				6C005187220A0227008F7091 /* SpotifyManager.swift */,
 				6C00515D2209F83A008F7091 /* Main.storyboard */,
 				6C0051602209F83C008F7091 /* Assets.xcassets */,
 				6C0051622209F83C008F7091 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C005188220A0227008F7091 /* SpotifyManager.swift in Sources */,
 				6C00515C2209F83A008F7091 /* ViewController.swift in Sources */,
 				6C00515A2209F83A008F7091 /* AppDelegate.swift in Sources */,
 			);
@@ -435,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6W2A826YQJ;
 				INFOPLIST_FILE = SpotifyTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6W2A826YQJ;
 				INFOPLIST_FILE = SpotifyTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
